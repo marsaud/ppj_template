@@ -1,0 +1,43 @@
+/* 
+    Document   : poisplume
+    Created on : Jun 25, 2012, 10:23:47 PM
+    Author     : fabrice
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+body {
+    background-image: url("http://localhost/poisplumes/images/poisplumes/amasDEplumes.png");
+    background-repeat: no-repeat;
+    background-position: 100% 0%;
+}
+
+div.main-layout {
+    max-width: 90%;
+    margin: auto;
+}
+
+div.error-content h1 {
+    text-align: center;
+}
+
+div.banner {
+    background-image: url("http://localhost/poisplumes/images/poisplumes/mongolfieres.png");
+    border-color: #DDDDDD;
+    border-style: solid;
+}
+
+#owlmenu li {
+    display: inline;
+    margin-right: 15px;
+}
+
+#owlmenu li.current {
+    font-weight: bold;
+}
+
+#owlmenu li a {
+    text-decoration: none;
+}
+
+

@@ -1,0 +1,107 @@
+/* 
+    Document   : poisplume
+    Created on : Jun 25, 2012, 10:23:47 PM
+    Author     : fabrice
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+div.main-layout {
+    max-width: 50%;
+    margin: auto;
+    /* The two following margins are sum(
+    #owlmenu li padding-top,
+    #owlmenu li font-size,
+    5
+    )*/
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+
+div.main-content {
+    border-color: #DDDDDD;
+    border-style: solid;
+}
+
+div.banner {
+    background-image: url("http://localhost/poisplumes/images/poisplumes/mongolfieres.png");
+    border-color: #DDDDDD;
+    border-style: solid;
+}
+
+#owlmenu li.item-101 {
+    position: fixed;
+    top: 0%;
+    left: 30%;
+
+    background-image: url("http://localhost/poisplumes/images/poisplumes/plume1.png");
+}
+
+#owlmenu li.item-102 {
+    position: fixed;
+    top: 0%;
+    right: 30%;
+
+    background-image: url("http://localhost/poisplumes/images/poisplumes/plume2.png");
+}
+
+#owlmenu li.item-107 {
+    position: fixed;
+    top: 30%;
+    left:5%;
+
+    background-image: url("http://localhost/poisplumes/images/poisplumes/plume3.png");
+}
+
+#owlmenu li.item-103 {
+    position: fixed;
+    top: 30%;
+    right: 5%;
+
+    background-image: url("http://localhost/poisplumes/images/poisplumes/plume4.png");
+}
+
+#owlmenu li.item-106 {
+    position: fixed;
+    top: 60%;
+    left: 15%;
+
+    background-image: url("http://localhost/poisplumes/images/poisplumes/plume5.png");
+}
+
+#owlmenu li.item-104 {
+    position: fixed;
+    top: 60%;
+    right: 15%;
+
+    background-image: url("http://localhost/poisplumes/images/poisplumes/plume6.png");
+}
+
+#owlmenu li.item-105 {
+    position: fixed;
+    bottom: 0%;
+    left: 30%;
+
+    background-image: url("http://localhost/poisplumes/images/poisplumes/plume7.png");
+}
+
+#owlmenu li.item-108 {
+    position: fixed;
+    bottom: 0%;
+    right: 30%;
+
+    background-image: url("http://localhost/poisplumes/images/poisplumes/plume8.png");
+}
+
+#owlmenu li {
+    padding-top: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-width: 80px;
+    display: inline;
+}
+
+#owlmenu li a {
+    text-decoration: none;
+}
+
