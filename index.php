@@ -11,7 +11,7 @@ $variant = $this->params->get('templatevariant');
     <head>
         <title><?php echo $this->title; ?></title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-        <link rel="stylesheet" href="http://localhost/poisplumes/css/poisplumes_<?php echo $variant; ?>.css" type="text/css" media="screen" />
+        <link rel="stylesheet" href="http://cafepoisplumes.fr/templates/ppj_template/css/poisplumes_<?php echo $variant; ?>.css" type="text/css" media="screen" />
     </head>
     <body>
         <div class="main-layout">
