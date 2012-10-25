@@ -7,12 +7,60 @@
 */
 
 @font-face {
+    font-family: 'CuadrifonteFillMedium';
+    src: url('CuadrifonteFill-webfont.eot');
+    src: url('CuadrifonteFill-webfont.eot?#iefix') format('embedded-opentype'),
+        url('CuadrifonteFill-webfont.woff') format('woff'),
+        url('CuadrifonteFill-webfont.ttf') format('truetype'),
+        url('CuadrifonteFill-webfont.svg#CuadrifonteFillMedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'CuadrifonteLineMedium';
+    src: url('CuadrifonteLine-webfont.eot');
+    src: url('CuadrifonteLine-webfont.eot?#iefix') format('embedded-opentype'),
+        url('CuadrifonteLine-webfont.woff') format('woff'),
+        url('CuadrifonteLine-webfont.ttf') format('truetype'),
+        url('CuadrifonteLine-webfont.svg#CuadrifonteLineMedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'CuadrifonteMedium';
+    src: url('Cuadrifonte-webfont.eot');
+    src: url('Cuadrifonte-webfont.eot?#iefix') format('embedded-opentype'),
+        url('Cuadrifonte-webfont.woff') format('woff'),
+        url('Cuadrifonte-webfont.ttf') format('truetype'),
+        url('Cuadrifonte-webfont.svg#CuadrifonteMedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'CuadrifontePicsMedium';
+    src: url('CuadrifontePics-webfont.eot');
+    src: url('CuadrifontePics-webfont.eot?#iefix') format('embedded-opentype'),
+        url('CuadrifontePics-webfont.woff') format('woff'),
+        url('CuadrifontePics-webfont.ttf') format('truetype'),
+        url('CuadrifontePics-webfont.svg#CuadrifontePicsMedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
     font-family: 'RougeRegular';
     src: url('rouger-webfont.eot');
     src: url('rouger-webfont.eot?#iefix') format('embedded-opentype'),
-         url('rouger-webfont.woff') format('woff'),
-         url('rouger-webfont.ttf') format('truetype'),
-         url('rouger-webfont.svg#RougeRegular') format('svg');
+        url('rouger-webfont.woff') format('woff'),
+        url('rouger-webfont.ttf') format('truetype'),
+        url('rouger-webfont.svg#RougeRegular') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -22,12 +70,16 @@
     font-family: 'RougeBold';
     src: url('rougeb-webfont.eot');
     src: url('rougeb-webfont.eot?#iefix') format('embedded-opentype'),
-         url('rougeb-webfont.woff') format('woff'),
-         url('rougeb-webfont.ttf') format('truetype'),
-         url('rougeb-webfont.svg#RougeBold') format('svg');
+        url('rougeb-webfont.woff') format('woff'),
+        url('rougeb-webfont.ttf') format('truetype'),
+        url('rougeb-webfont.svg#RougeBold') format('svg');
     font-weight: normal;
     font-style: normal;
 
+}
+
+body {
+    background-color: #eeeeee;
 }
 
 div.main-layout {
@@ -43,14 +95,18 @@ div.main-layout {
 }
 
 div.main-content {
-    border-color: #DDDDDD;
-    border-style: solid;
+    /*border-color: #DDDDDD;
+    border-style: solid;*/
 }
 
 div.banner {
-    background-image: url("http://cafepoisplumes.fr/templates/ppj_template/images/poisplumes/mongolfieres.png");
+    /*background-image: url("http://cafepoisplumes.fr/templates/ppj_template/images/poisplumes/mongolfieres.png");
     border-color: #DDDDDD;
-    border-style: solid;
+    border-style: solid;*/
+}
+
+div.banner h1 {
+    font-family: 'RougeBold', sans-serif;
 }
 
 #owlmenu {
@@ -61,7 +117,7 @@ div.banner {
 #owlmenu li.item-101 {
     position: fixed;
     top: 0%;
-    left: 30%;
+    left: 15%;
 
     background-image: url("http://cafepoisplumes.fr/templates/ppj_template/images/poisplumes/plume1.png");
 }
@@ -69,7 +125,7 @@ div.banner {
 #owlmenu li.item-102 {
     position: fixed;
     top: 0%;
-    right: 30%;
+    right: 15%;
 
     background-image: url("http://cafepoisplumes.fr/templates/ppj_template/images/poisplumes/plume2.png");
 }
@@ -77,7 +133,7 @@ div.banner {
 #owlmenu li.item-107 {
     position: fixed;
     top: 30%;
-    left:5%;
+    left:1%;
 
     background-image: url("http://cafepoisplumes.fr/templates/ppj_template/images/poisplumes/plume3.png");
 }
@@ -85,7 +141,7 @@ div.banner {
 #owlmenu li.item-103 {
     position: fixed;
     top: 30%;
-    right: 5%;
+    right: 1%;
 
     background-image: url("http://cafepoisplumes.fr/templates/ppj_template/images/poisplumes/plume4.png");
 }
@@ -93,7 +149,7 @@ div.banner {
 #owlmenu li.item-106 {
     position: fixed;
     top: 60%;
-    left: 15%;
+    left: 7%;
 
     background-image: url("http://cafepoisplumes.fr/templates/ppj_template/images/poisplumes/plume5.png");
 }
@@ -101,7 +157,7 @@ div.banner {
 #owlmenu li.item-104 {
     position: fixed;
     top: 60%;
-    right: 15%;
+    right: 7%;
 
     background-image: url("http://cafepoisplumes.fr/templates/ppj_template/images/poisplumes/plume6.png");
 }
@@ -109,7 +165,7 @@ div.banner {
 #owlmenu li.item-105 {
     position: fixed;
     bottom: 0%;
-    left: 30%;
+    left: 15%;
 
     background-image: url("http://cafepoisplumes.fr/templates/ppj_template/images/poisplumes/plume7.png");
 }
@@ -117,7 +173,7 @@ div.banner {
 #owlmenu li.item-108 {
     position: fixed;
     bottom: 0%;
-    right: 30%;
+    right: 15%;
 
     background-image: url("http://cafepoisplumes.fr/templates/ppj_template/images/poisplumes/plume8.png");
 }
