@@ -18,6 +18,18 @@
 
 }
 
+@font-face {
+    font-family: 'RougeBold';
+    src: url('rougeb-webfont.eot');
+    src: url('rougeb-webfont.eot?#iefix') format('embedded-opentype'),
+         url('rougeb-webfont.woff') format('woff'),
+         url('rougeb-webfont.ttf') format('truetype'),
+         url('rougeb-webfont.svg#RougeBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 body {
     background-image: url("http://cafepoisplumes.fr/templates/ppj_template/images/poisplumes/amasDEplumes.png");
     background-repeat: no-repeat;

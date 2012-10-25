@@ -16,7 +16,7 @@ $variant = $this->params->get('templatevariant');
     <body>
         <div class="main-layout">
             <div class="banner">
-                <h1 style="font-family: 'RougeRegular', Arial, sans-serif">CAFÉ POIS PLUMES</h1>
+                <h1>CAFÉ POIS PLUMES</h1>
             </div>
             <div>
                 <jdoc:include type="modules" name="menu-position" />
