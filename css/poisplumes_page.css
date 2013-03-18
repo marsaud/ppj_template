@@ -101,11 +101,11 @@ div.banner {
     border-style: solid;*/
 }
 
-h1 {
+/*h1 {
     font-family: 'CuadrifonteMedium', sans-serif;
-}
+}*/
 
-h2, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6 {
     font-family: 'RougeRegular', sans-serif;
 }
 
@@ -127,7 +127,8 @@ div.banner h1 {
     font-size: 1.3em;
 }
 
-#owlmenu li.current {
+#owlmenu li.current a {
+    color: blueviolet;
     font-weight: bold;
 }
 

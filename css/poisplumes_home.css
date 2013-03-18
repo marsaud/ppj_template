@@ -115,6 +115,11 @@ div.banner h1 {
     font-family: 'CuadrifonteLineMedium', sans-serif;
     font-family: 'CuadrifonteFillMedium', sans-serif;*/
     font-size: 70px;
+    text-align: center;
+}
+
+div.banner img {
+    margin: auto;
 }
 
 #owlmenu {
@@ -140,7 +145,7 @@ div.banner h1 {
 
 #owlmenu li.item-107 {
     position: fixed;
-    top: 30%;
+    top: 13%;
     left:1%;
 
     background-image: url("http://cafepoisplumes.fr/templates/ppj_template/images/poisplumes/plume3.png");
@@ -148,7 +153,7 @@ div.banner h1 {
 
 #owlmenu li.item-103 {
     position: fixed;
-    top: 25%;
+    top: 20%;
     right: 1%;
 
     background-image: url("http://cafepoisplumes.fr/templates/ppj_template/images/poisplumes/plume4.png");
@@ -156,7 +161,7 @@ div.banner h1 {
 
 #owlmenu li.item-106 {
     position: fixed;
-    top: 60%;
+    top: 27%;
     left: 7%;
 
     background-image: url("http://cafepoisplumes.fr/templates/ppj_template/images/poisplumes/plume5.png");
@@ -164,7 +169,7 @@ div.banner h1 {
 
 #owlmenu li.item-104 {
     position: fixed;
-    top: 50%;
+    top: 27%;
     right: 7%;
 
     background-image: url("http://cafepoisplumes.fr/templates/ppj_template/images/poisplumes/plume6.png");
@@ -172,7 +177,7 @@ div.banner h1 {
 
 #owlmenu li.item-105 {
     position: fixed;
-    bottom: 0%;
+    top:73%;
     left: 15%;
 
     background-image: url("http://cafepoisplumes.fr/templates/ppj_template/images/poisplumes/plume7.png");
@@ -180,7 +185,7 @@ div.banner h1 {
 
 #owlmenu li.item-108 {
     position: fixed;
-    bottom: 25%;
+    top: 50%;
     right: 15%;
 
     background-image: url("http://cafepoisplumes.fr/templates/ppj_template/images/poisplumes/plume8.png");
@@ -188,10 +193,26 @@ div.banner h1 {
 
 #owlmenu li.item-109 {
     position: fixed;
-    bottom: 0%;
+    top: 73%;
     right: 7%;
 
     background-image: url("http://cafepoisplumes.fr/templates/ppj_template/images/poisplumes/plume9.png");
+}
+
+#owlmenu li.item-110 {
+    position: fixed;
+    top: 50%;
+    left: 3%;
+
+    background-image: url("http://cafepoisplumes.fr/templates/ppj_template/images/poisplumes/plume10.png");
+}
+
+#owlmenu li.item-110 {
+    position: fixed;
+    top: 0%;
+    right: 11%;
+
+    background-image: url("http://cafepoisplumes.fr/templates/ppj_template/images/poisplumes/plume2.png");
 }
 
 #owlmenu li {
